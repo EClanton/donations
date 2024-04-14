@@ -1,0 +1,173 @@
+h1 { background-color:#301934;
+    text-align: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 0%;
+    font-size: 300%;
+}
+
+h2 {text-align: left;
+    padding-left: 5%;
+    font-size: 175%;
+    font-family: cursive;
+    color: #301934;
+}
+
+h3 {
+    text-align: left;
+    color: #301934;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 0%;
+    font-size: 100%;
+    font-family:cursive
+}
+
+p.footer {
+    text-align: left;
+    padding-left: 5%;
+    font-size: 75%
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+td, th.lyre {
+  text-align: right;
+  padding: 8px;
+    padding-right: 5%
+}
+
+td, th.purple {
+  text-align: right;
+  padding: 8px;
+    padding-right: 5%;
+}
+
+td, th.axo {
+  text-align: left;
+  padding: 8px;
+    padding-right: 5%;
+     padding-left: 5%;
+}
+
+td, th.letters {
+  text-align: right;
+  padding: 8px;
+    padding-right: 15%;
+     padding-left: 0%;
+}
+
+td, th.gallary {
+  text-align: canter;
+  padding: 8px;
+    padding-right: 5%;
+     padding-left: 5%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DAF7A6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #301934;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #C70039;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+a:visited {
+    color:#301934;
+}
+
+a:hover {
+    color:#DAF7A6
+}
+
+footer {
+    background-color: #DAF7A6;
+    border-style: ridge;
+    border-color: #301934;
+    border-width:thick
+}
